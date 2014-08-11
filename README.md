@@ -47,15 +47,13 @@ Pre-Setup 4 Hour Restart Cron Jobs
 59 2,5,8,11,14,17,20,23 * * * php -q /home/dayzservers/epochchernarus/Restart/1min.php        #1 Min Restart
 
 The above are only if you copy and paste into the cron file located in /var/spool/cron/crontabs/USERNAME
-
 ```
 
 ***
 These are how to setup on multiple systems 
-```
 
 ###/*For Webmin*/
-
+```
 1. Login
 2. Select "System" on the left
 3. Select "Scheduled Cron Jobs"
@@ -80,9 +78,9 @@ Make sure it says Selected .. and not All   keep "Days, Months, Weekdays set to 
 then under "Date range to execute" Select Run on any date!
 
 then click Save and then follow from the top for each cron
-
+```
 ###/*For cPanel*/
-
+```
 1. Login
 2. Scroll down to Advanced Tab
 3. Click Cron Jobs
@@ -99,7 +97,7 @@ Weekday: *
 Command: Select from below
 
 then Click Add New Cron Job and it should show at the bottom
-
+```
 
 Use these to add as the command for the cron jobs 
 
@@ -107,7 +105,7 @@ Use these to add as the command for the cron jobs
 /* Commands */
 /*			       */
 
-```
+'''
  2 Hr: php -q /home/dayzservers/epochchernarus/Restart/2hr.php
  1 Hr: php -q /home/dayzservers/epochchernarus/Restart/1hr.php
  30 Min: php -q /home/dayzservers/epochchernarus/Restart/30min.php
