@@ -1,0 +1,3 @@
+Here are scripts to allow Battleye to send a message when a restart is due, there is a file in the root folder with useful cron jobs you can use and that you will need to add for this to work, these cron jobs are set to go off for 3 hour restarts, you will need to modify them if you have later restarts..    I did not create these all credit goes to JPhix 
+
+Edit the config.php to specify your servers IP,Port and Password, Battleye must be enabled for these to work.
