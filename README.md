@@ -105,7 +105,7 @@ Use these to add as the command for the cron jobs
 /* Commands */
 /*			       */
 
-'''
+```
  2 Hr: php -q /home/dayzservers/epochchernarus/Restart/2hr.php
  1 Hr: php -q /home/dayzservers/epochchernarus/Restart/1hr.php
  30 Min: php -q /home/dayzservers/epochchernarus/Restart/30min.php
