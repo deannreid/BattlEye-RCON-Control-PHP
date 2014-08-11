@@ -114,3 +114,5 @@ Use these to add as the command for the cron jobs
  5 Min: php -q /home/dayzservers/epochchernarus/Restart/5min.php
  1 Min: php -q /home/dayzservers/epochchernarus/Restart/1min.php
 ```
+
+###These Files were not created by me. Just reuploaded to github due to original server being offline. All files were created by JPhix
