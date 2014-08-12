@@ -10,6 +10,7 @@ If you are using a Distro that uses YUM then copy this
 ``` 
 su -c yum update
 su yum install php5 php5-cgi spawn-fcgi
+service apache2 restart
 ```
 I'm not entirely sure on which package is correct, it might pop up with an error on one of them :/
 
@@ -23,6 +24,9 @@ sudo apt-get install php5 php5-cgi
 and if it moans then you can try
 
 sudo apt-get install -f 
+
+finally Restart apache
+service apache2 restart
 ```
 
 ***
