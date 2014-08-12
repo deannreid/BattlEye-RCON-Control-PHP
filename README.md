@@ -58,16 +58,18 @@ These are how to setup on multiple systems
 2. Select "System" on the left
 3. Select "Scheduled Cron Jobs"
 4. Click the button at the top that says "Create a new scheduled cron job"
-
+```
 #####=== In Order ===
 ######==Job Details==
+```
 Execute cron job as: "Your Login Username" e.g dayzservers. or click the button next to the text box and select your username *Case Sensitive*
 Active? Select Yes!
 Command: Copy and paste a command from below
 Input to command: BLANK
 Description: e.g DayZ Epoch Panthera Restarter
-
+```
 ######==When to Execute==
+```
 You can select from the drop down box or for a 3 hour restart *Make sure this is correct or your server will restart every minute!*
 
 In the Minutes Box select: 0 
@@ -84,8 +86,9 @@ then click Save and then follow from the top for each cron
 1. Login
 2. Scroll down to Advanced Tab
 3. Click Cron Jobs
-
+```
 ######=== In Order ===
+```
 Common Settings: Select one of the defaults if you wish
 
 Minute: 0
