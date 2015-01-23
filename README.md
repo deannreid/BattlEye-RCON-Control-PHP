@@ -19,7 +19,7 @@ If you use a Distro that uses APT then copy this
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install php5 php5-cgi
+sudo apt-get install php5 php5-cgi spawn-fcgi
 
 and if it moans then you can try
 
